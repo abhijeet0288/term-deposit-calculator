@@ -1,0 +1,70 @@
+.term-deposit {
+  background-color: #f7f7f7;
+  padding: 30px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.term-deposit-title {
+  font-family : "Avenir Light";
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-family : "Avenir Light";
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Avenir Light";
+  font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: rgb(247, 138, 99);
+  outline: none;
+}
+
+.calculate-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(247, 138, 99);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.result-section {
+  font-family: "Avenir Light";
+  border: 1px solid rgb(247, 138, 99);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.result-section h2 {
+  font-size: 30px;
+  color: rgb(247, 138, 99);
+  margin-bottom: 10px;
+}
