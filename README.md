@@ -32,7 +32,7 @@ This is a simple **Term Deposit Calculator** application built with **React**, a
 1. **Run all tests**:
     
    ```bash
-   npm test
+   npm test -- --watchAll=false
 
 2. **Run tests for specific file** (for instance, Calculator.test.js):
 
